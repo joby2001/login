@@ -54,7 +54,74 @@ body{
     border: 0;
     background-color: aliceblue;
 }
+.right-section{
+    width: 40%;
+    height: 100%;
+    float: left;
+    margin-top: 50px;
+}
 .loginform{
-    border: 1px;
-    border-color: rgb(173, 62, 62);
+   border-radius: 8px;
+    padding: 20px;
+    background-color: #fff;
+    width: 350px;
+   height: 350px;
+   justify-content: center;
+   -webkit-box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+   box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.textspace{
+    padding: 5px;
+    border: 1px solid grey;
+    width: 100%;
+    border-radius: 8px;
+    height: 40px;
+    font-size: 17px;
+}
+.textspace:focus{
+    border: 2px solid rgb(112, 149, 235);
+}
+.submitbutton{
+    width: 100%;
+    height:45px ;
+    border-radius: 8px;
+    background-color: #1877f2;
+    border: 1px solid grey;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+}
+.forgot{
+    justify-content: center;
+    margin-left: 110px;
+    text-decoration: none;
+    color: rgb(68, 68, 157);
+}
+.forgot:hover{
+    text-decoration: underline;
+}
+.newaccount{
+    margin-left: 80px;
+    border: 0px solid;
+    width: 200px;
+    height: 45px;
+    border-radius: 6px;
+    background-color: #42b72a;
+    margin-top: 20px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+}
+.par{
+    margin-left: 35px;
+    padding-top: 15px;
+}
+.par a{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+.par a:hover{
+    text-decoration: underline;
 }
